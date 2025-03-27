@@ -1,0 +1,42 @@
+20161109 和田宝成@CDB形態形成シグナル
+20161201 ver.20161201リリース
+	コードの整理
+	細かい値の調整
+	既知の不具合の修正
+
+Plugin Name
+	ZTinterpolation
+	ver.20161201
+
+FileName
+	ZTinterpolation_.jar
+
+製作者
+	和田　宝成
+
+概要
+	Z軸およびT軸に対して補間画像を挿入するplugin
+	Z 1pointは1pixelとした画像を作る
+
+使用例
+
+機能説明
+	RadioButton
+		Z : Z軸に対して補間画像を挿入する
+			TextArea : pixel / micron
+				1micronあたりのpixel数を指定
+				デフォルトはImageJおよび画像に記録されている値を使用
+			
+			TextArea : micron / slice
+				1sliceあたりのmicron値を指定
+				デフォルトはImageJおよび画像に記録されている値を使用
+		
+		T : T軸に対して補間画像を挿入する
+			TextArea : x
+				引き伸ばしたい倍率を指定
+
+
+その他の詳細情報
+
+注意点
+
